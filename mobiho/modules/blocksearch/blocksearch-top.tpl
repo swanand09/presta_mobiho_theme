@@ -24,8 +24,8 @@
 *}
 <!-- Block search module TOP -->
 
-<div class="col-md-5 col-md-offset-1">
-      	<form class="navbar-form" method="get" action="{$link->getPageLink('search')|escape:'html':'UTF-8'}" role="search">
+<div class="col-md-6">
+      	<form class="navbar-form-search" method="get" action="{$link->getPageLink('search')|escape:'html':'UTF-8'}" role="search">
         <div class="input-group">            
             <input type="hidden" name="controller" value="search" />
             <input type="hidden" name="orderby" value="position" />

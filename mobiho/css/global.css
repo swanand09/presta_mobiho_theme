@@ -17,7 +17,7 @@ div.row.featured { height: 520px; background: url("../img/featured.png") repeat-
 div.row.traits { height: 508px; padding-top: 70px; }
 div.row.services { height: 550px; background: url("../img/services.png") repeat-x scroll 0 0 transparent; padding-top: 70px; }
 div.row.temoignages { height: 499px; background-color: #ccdc39; padding-top: 70px; }
-div.row.forfait { height: 655px; background: url("../img/bg_forfait.png") repeat-x scroll 0 0 transparent; }
+div.row.forfait { height: 655px; background: url("../img/bg_forfait.png") repeat-x scroll 0 0 transparent; padding-top: 80px; }
 div.row.meilleur-telephones { height: 1011px; background: url("../img/bg-meilleur-telephones.png") repeat-x scroll 0 0 transparent; padding-top: 70px; }
 div.row.option-paiement { height: 124px; }
 div.row.footer { height: 368px; padding-top: 70px; }
@@ -25,13 +25,29 @@ div.row.footer { height: 368px; padding-top: 70px; }
 /*
 * size-text department
 */
-.icon-augmenter {  background: url("../img/augmenter.png") no-repeat scroll 0 0 transparent; padding-left: 25px; font-size: 1.2em; }
-.size-text .a3 { margin-right: 17px; padding-right: 17px; }
+.row.size-text { padding-top: 0px !important;}
+.icon-augmenter { background: url("../img/augmenter.png") no-repeat scroll 0 0 transparent; padding-left: 25px; font-size: 1.2em; }
+.text-sizer a { color: #3d3d3d; margin-right: 5px; }
+.row .text-sizer .small{ font-size: 18px !important; }
+.row .text-sizer .medium{ font-size: 22px !important; }
+.row .text-sizer .large{ font-size: 26px !important; padding-right: 19px; }
+.sign-in a{ padding-left: 19px; font-size: 1.1em; }
+
 
 /*
 * header
 */
-.header .besoin-aide{ background: url("../img/besoin-aide.png") no-repeat scroll 0 0 transparent; height: 119px; padding-left: 125px; margin-top: 8px;}
+.navbar-form-search { margin-top: 48px; padding-left: 31px; width: 232px;}
+.navbar-form-search input[type="text"] { width: 232px; height: 33px; border:2px solid #d4d4d4;}
+.navbar-form-search [type="submit"] { height: 33px; border:2px solid #d4d4d4; color:#fff; background-color: #d4d4d4; }
+.header .besoin-aide{ background: url('../img/besoin-aide.png') no-repeat scroll 0px 0px transparent;
+height: 119px;
+padding-left: 132px;
+margin-top: 8px;
+padding-top: 19px;
+line-height: 29px;}
+.header .besoin-aide p { font-size: 1.3em; }
+.header .besoin-aide .numero { color: #08519b; font-size: 1.8em; font-weight: bold;}
 
 /*
 * menu-panier
@@ -41,7 +57,7 @@ ul.nav li a {font-size: 1.3em; color: #3c3f25; padding:12px 22px; text-shadow: -
 ul.nav li.active { background: url("../img/menu_item_active.png"); }
 ul.nav li.active a { color: #fff; font-weight: bold; }
 .icon-mon-sac { 
-  background: url("../img/mon-sac.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: url("../img/mon-sac.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
     color: #3C3F25;
     display: block;
     font-size: 1.3em;
@@ -104,10 +120,60 @@ ul.nav li.active a { color: #fff; font-weight: bold; }
 #carousel-temoignage ol.carousel-indicators li.active { background-color: transparent; margin:1px;}
 
 /*
+* Forfait
+*/
+.promo-stamp {
+	float: left;
+	width: 100%;
+	text-align: right;
+	margin-top: -293px;
+	z-index: 999;
+	position: relative;
+	padding-right: 7px;
+}
+.custom-col-forfait { height:502px; width: 418px; float: left; border:1px solid; }
+.forfait .nouveaute { margin-right:20px; margin-left: 40px; border:1px solid #85ce20; background: url("../img/promo_green_bg.png") repeat-x scroll 0 0 transparent;}
+.nouveaute-ribbon {  background: url("../img/nouveaute_ribbon.png") no-repeat scroll 0 0 transparent; height: 100px; }
+.promo-mobile { margin-top: -87px; }
+.btn_magasinez {  background: url("../img/btn_forfait.png") no-repeat scroll 0 0 transparent; padding-top: 3px; font-size: 19px; color: #fff; width: 171px; height: 41px; display:block; text-align: center; margin-left: auto; margin-right: auto; }
+.forfait .nouveaute span{ color: #3C3C3C; font-weight: bold; font-size: 1.3em; padding-left: 20px; }
+.forfait ul.rating {
+	padding-left: 20px;
+	border: none;
+	margin-bottom: 0;
+}
+.desc p{color: #797979; font-size: 1.2em; padding:0 20px; }
+.forfait .nouveaute .border-bottom-1 {float: left; margin-top: 25px; margin-bottom: 12px; border-color: #d9eded;}
+.forfait .forfait-bloques { border-color: #ff5160 ; }
+.forfait-bloques .first { background:#ff5160; padding-bottom: 10px; }
+.forfait-bloques .first h2{ 
+	color: #FFF21A;
+	margin-top: 0px;
+	padding-left: 23px;
+	padding-right: 23px; 
+	font-size: 2.6em;
+	font-weight: bold;
+	background: url('../img/bg_dots.png') no-repeat scroll center bottom transparent;
+	margin-bottom: 30px;
+	padding-bottom: 21px;
+	padding-top: 14px;
+ }
+.custom-row { margin-bottom: 4px;}
+.custom-row .col1{ margin-right: 9px; margin-left: 23px; }
+.custom-row .col { background: #ff6e79; color:#fff; height: 70px; width: 180px; float: left; }
+.custom-row .col span.for strong, .custom-row .col span.for small { color: #fff220; }
+.custom-row .col .tarifs{ padding-left: 10px; display: block; float: left; font-weight: bold;}
+.custom-row .col .tarifs strong{ font-size: 1.9em; }
+.custom-row .col .for{ display: block; padding-left: 10px; font-weight: bold; float: left;}
+.custom-row .col .for strong{ font-size: 1.9em; }
+.forfait-bloques .second { padding: 0 23px; }
+.forfait-bloques .second p{ padding-top: 15px; font-size: 1.3em; color: #5c6759; }
+.forfait-bloques .second a {  background: url("../img/btn_forfait.png") no-repeat scroll 0 0 transparent; padding-top: 3px; font-size: 19px; color: #fff; width: 171px; height: 41px; display:block; text-align: center; margin-left: auto; margin-right: auto; }
+/*
 * meilleur-telephones
 */
 .max .img_tel img, .easy .img_tel img { margin-left: -17px; }
-.col-custom-3{ width: 290px; float: left; height: 580px; background-color: #fff; border: 1px solid #e0e0e0; }
+.col-custom-3{ width: 290px; float: left; height: 580px; border: 1px solid #e0e0e0; background: url("../img/promo_green_bg.png") repeat-x scroll 0 0 #fff; }
 .col-custom-3.max, .col-custom-3.easy { margin-right: 35px;}
 .meilleur-telephones .banner { padding:0; margin-top: 40px;}
 .meilleur-telephones .img_tel { margin-top: 15px; height:274px; padding: 0; }
@@ -196,12 +262,14 @@ a.btn_tel_detail { background: url("../img/btn_tel_detail.png") no-repeat scroll
 }
 
 
+
 body { font-family: HelveticaNeue; overflow-x: hidden;}
 .border-right-1 { border-right: 1px solid #000;}
+.border-bottom-1 { border-bottom: 1px solid #000;}
 .section-title { font-size: 1.3em; color: #4f4f4f; }
 .home h2 { font-size: 3.2em; font-weight: bold; color: #101010; margin-bottom: 50px; margin-top: 10px; }
 .drop-box-shadow {
-  -webkit-box-shadow: 0px 0px 2px 0px rgba(50, 50, 50, 0.10);
-  -moz-box-shadow:    0px 0px 2px 0px rgba(50, 50, 50, 0.10);
-  box-shadow:         0px 0px 2px 0px rgba(50, 50, 50, 0.10);
+	-webkit-box-shadow: 0px 0px 2px 0px rgba(50, 50, 50, 0.10);
+	-moz-box-shadow:    0px 0px 2px 0px rgba(50, 50, 50, 0.10);
+	box-shadow:         0px 0px 2px 0px rgba(50, 50, 50, 0.10);
 }
