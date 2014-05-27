@@ -9,6 +9,15 @@
 /*
 * Main structure
 */
+
+#homepage-slider{
+    width:100% !important;
+}
+
+#homepage-slider .bx-controls{
+    display: none !important;
+}
+
 div.row.size-text { height: 40px; padding-top: 10px; }
 div.row.header { height: 128px; }
 div.row.menu-panier { height: 44px; background: url("../img/bg_menu.png") repeat-x scroll 0 0 transparent; }
