@@ -1,0 +1,26 @@
+[22:06:46] Nitesh Hurchand: wai mo p rod sa mem la
+[22:17:30 | Edited 22:18:32] Nitesh Hurchand: 1. Top horizontal menu (nav menu)
+2. product_focus (nouveaute - static image)
+3. productfocus (les forfait bloques - static image)
+4. eGrove Focus (Meilleurs Téléphones Vendeur - produit)
+[22:17:43] swanand reddy luthmoodoo: dac
+[22:18:15] swanand reddy luthmoodoo: ok mo pou integrer directement depi BO
+[22:19:16] Nitesh Hurchand: mo croire bizin add new modules "productfocus3" for other items lor homepage la
+[22:19:54] swanand reddy luthmoodoo: ok c ene module deja en place
+[22:20:01] swanand reddy luthmoodoo: bisn installer et enable
+[22:20:07] swanand reddy luthmoodoo: ou bisn developer?
+[22:20:20] Nitesh Hurchand: copy, rename, install et enable
+[22:20:28] Nitesh Hurchand: pa bizin developer
+[22:20:37] Nitesh Hurchand: lerla to set ki image pu display
+[22:20:44] swanand reddy luthmoodoo: dac
+[22:20:47] swanand reddy luthmoodoo: mo pou check sa
+[22:21:08] Nitesh Hurchand: par exemple sa bande jaune bleu sous 3 produit la
+[22:21:39] swanand reddy luthmoodoo: ok
+[22:21:56] swanand reddy luthmoodoo: c ene banner module sa
+[22:22:06] Nitesh Hurchand: ena ene module for testimonial also (Testimonial Module)
+[22:22:28] Nitesh Hurchand: essaye servi ban module prest1.6 mem
+[22:22:54] swanand reddy luthmoodoo: dac
+[22:23:12] swanand reddy luthmoodoo: testimonial la c sa mini slide show la sa
+[22:23:40] Nitesh Hurchand: parski ban pakistanais ine faire imP ban tweak pu theme ki pa consistent
+[22:23:50] swanand reddy luthmoodoo: ok
+Sanjay Hurchund
