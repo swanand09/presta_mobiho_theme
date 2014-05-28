@@ -1,8 +1,15 @@
 [22:06:46] Nitesh Hurchand: wai mo p rod sa mem la
-[22:17:30 | Edited 22:18:32] Nitesh Hurchand: 1. Top horizontal menu (nav menu)
+[22:17:30 | Edited 22:18:32] Nitesh Hurchand: 
+
+1. Top horizontal menu (nav menu)
+
 2. product_focus (nouveaute - static image)
+
 3. productfocus (les forfait bloques - static image)
+
 4. eGrove Focus (Meilleurs Téléphones Vendeur - produit)
+
+
 [22:17:43] swanand reddy luthmoodoo: dac
 [22:18:15] swanand reddy luthmoodoo: ok mo pou integrer directement depi BO
 [22:19:16] Nitesh Hurchand: mo croire bizin add new modules "productfocus3" for other items lor homepage la
