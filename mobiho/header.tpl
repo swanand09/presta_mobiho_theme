@@ -54,6 +54,9 @@
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 		<![endif]-->
+		<script type="text/javascript" src="{$js_dir}plugins/hoverIntent.js"></script>
+		<script type="text/javascript" src="{$js_dir}plugins/icheck.min.js"></script>
+		<script type="text/javascript" src="{$js_dir}plugins/superfish.js"></script>
 	</head>
 	<body class='home' {if isset($page_name)} id="{$page_name|escape:'html':'UTF-8'}"{/if} >
 	{if !$content_only}
@@ -80,6 +83,7 @@
                       {if isset($HOOK_TOP)}{$HOOK_TOP}{/if}
                         
                      <!--After menu -->
+
                      <div class="row after-menu">
                        <div class="container">
                          <div class="col-md-4 garantie">Garantie 1 an</div>
@@ -119,18 +123,26 @@
 						</div>
 					</div>
 				</header>
-			</div>
-			<div class="columns-container">
-				<div id="columns" class="container">
-					{if $page_name !='index' && $page_name !='pagenotfound'}
-						{include file="$tpl_dir./breadcrumb.tpl"}
-					{/if}
-					<div class="row">
-						<div id="top_column" class="center_column col-xs-12 col-sm-12">{hook h="displayTopColumn"}</div>
-					</div>
-					<div class="row">
-						{if isset($left_column_size) && !empty($left_column_size)}
-						<div id="left_column" class="column col-xs-12 col-sm-{$left_column_size|intval}">{$HOOK_LEFT_COLUMN}</div>
-						{/if}
-						<div id="center_column" class="center_column col-xs-12 col-sm-{12 - $left_column_size - $right_column_size}">*}
+			</div>*}
+                        {if $page_name !='index' && $page_name !='pagenotfound'}                         
+			  <div class="row" id="main-container">
+                                <div class="container">
+					{include file="$tpl_dir./breadcrumb.tpl"}
+                                </div>        
+                                {if $page_name =='category'}
+                                 <div class="outer-container drop-box-shadow">
+                                    <div class="container">
+                                      <div class="row">  
+                                          <div class="col-md-5 filter drop-box-shadow ">
+                                              {if isset($left_column_size) && !empty($left_column_size)}
+                                              {$HOOK_LEFT_COLUMN}
+                                              {/if}
+                                          </div>
+                                      </div>     
+                                    </div>
+                                 </div>  
+                                {/if}   
+                          </div>
+                        {/if}
+					
 	{/if}
